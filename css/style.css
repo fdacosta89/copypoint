@@ -1,0 +1,45 @@
+@font-face {
+font-family: 'Neo Sans Light';
+font-style: normal;
+font-weight: normal;
+src: local('Neo Sans Light'), url('neo-sans-light.woff') format('woff');
+}
+
+body {
+  background: url("../img/background.png") no-repeat center center fixed;*/
+  /*background-color: #0076C4 !important;*/
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.info {
+  width: 100%;
+  background-color: white;
+  min-height: 100px;
+}
+
+#header {
+  height: 100px;
+  position: relative;
+  top: 0px;
+  background-color: white;
+}
+
+legend {
+  margin: 3px;
+  text-align: center;
+  width: 100%;
+}
+#topicos li a:hover { text-decoration: none !important; color: #337AB7 !important;}
+
+#info3 .container .row .col-md-2,
+#info4 .container .row .col-md-2,
+#info5 .container .row .col-md-2 {
+  width: 13.667% !important;
+}
+
+.table > thead > tr {
+  background-color:rgba(0, 118, 196, 0.3) !important;
+}
